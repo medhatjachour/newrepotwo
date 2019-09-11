@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1000px) {
+  .hide-hdr, .show-hdr {
+    display: none; }
+  .replace-hdr {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: white; }
+    .replace-hdr i {
+      float: right;
+      font-size: 33px;
+      color: gray; }
+  .show-hdr {
+    transform: translateY(50px);
+    position: relative;
+    top: 50px; }
+  .rplc-mnu {
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px; }
+    .rplc-mnu .container {
+      width: 100%;
+      height: 100%; }
+      .rplc-mnu .container .row {
+        padding-top: 10px;
+        width: 100%;
+        height: 100%; }
+        .rplc-mnu .container .row .rplc-col {
+          cursor: pointer;
+          margin: 5px 0px;
+          padding: 9px 0px;
+          transition: .3s;
+          color: gray; }
+          .rplc-mnu .container .row .rplc-col p {
+            font-family: 'Inconsolata', monospace;
+            font-size: 14px;
+            margin-top: 5px;
+            margin-left: 8px; }
+          .rplc-mnu .container .row .rplc-col .mnu-a {
+            display: none; }
+          .rplc-mnu .container .row .rplc-col .mnu-b {
+            display: none; }
+          .rplc-mnu .container .row .rplc-col .mnu-c {
+            display: none; }
+          .rplc-mnu .container .row .rplc-col .mnu-d {
+            display: none; }
+          .rplc-mnu .container .row .rplc-col .mnu-e {
+            display: none; }
+          .rplc-mnu .container .row .rplc-col .rplc-nm {
+            width: 100%;
+            height: 100%; }
+            .rplc-mnu .container .row .rplc-col .rplc-nm li {
+              cursor: pointer;
+              margin-left: 22px;
+              margin-top: 16px;
+              font-family: 'Inconsolata', monospace; }
+        .rplc-mnu .container .row input {
+          width: 100%;
+          height: 30px;
+          background-color: white;
+          border: 0px solid white;
+          border-bottom: 1px solid lightgrey;
+          margin-bottom: 10px; }
+        .rplc-mnu .container .row .rplc-col:hover {
+          background-color: orange;
+          color: white;
+          transition: .5s; }
+          .rplc-mnu .container .row .rplc-col:hover p {
+            color: white; }
+          .rplc-mnu .container .row .rplc-col:hover .rplc-nm {
+            background-color: white;
+            color: black; }
+        .rplc-mnu .container .row .srch-col {
+          padding: 0px; } }
+
+/*1200*/

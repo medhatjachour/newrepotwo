@@ -1,0 +1,128 @@
+
+$txtcolor:#373737;
+$chosencolor:orange;
+
+
+@media only screen and (max-width:1000px){
+      
+    .hide-hdr,.show-hdr{
+        display: none
+    }
+
+.replace-hdr{
+    padding: 10px ;
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: white;
+    i{
+        float:right;
+        font-size: 33px;
+        color: gray;
+    }
+    }
+.show-hdr{
+        transform: translateY(50px);
+        position: relative;
+        top: 50px;
+    }
+.rplc-mnu{
+    display: none;
+    background-color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        .container{
+            width: 100%;
+            height: 100%;
+            .row{
+                padding-top: 10px;
+                width: 100%;
+                height: 100%;
+                .rplc-col{
+                    cursor: pointer;
+                    margin: 5px 0px;
+                    padding:9px 0px;
+                    transition: .3s;
+                    color: gray;
+                 p{
+                    font-family: 'Inconsolata', monospace;
+                     font-size: 14px;
+                     margin-top: 5px;
+                     margin-left: 8px;
+                 }
+                 .mnu-a{
+                     display: none;
+                 }
+                 .mnu-b{
+                     display: none;
+                 }
+                 .mnu-c{
+                     display: none;
+                 }
+                 .mnu-d{
+                     display: none;
+                 }
+                 .mnu-e{
+                     display: none;
+                 }
+                 .rplc-nm{
+                     width: 100%;
+                     height: 100%;
+                     li{
+                         cursor: pointer;
+                         margin-left: 22px;
+                        margin-top: 16px;
+                        font-family: 'Inconsolata', monospace;
+                     }
+                 }
+                }
+                input{
+                    width: 100%;
+                    height: 30px;
+                    background-color: white;
+                    border: 0px solid white;
+                    border-bottom: 1px solid lightgrey;
+                    margin-bottom: 10px;
+                }
+                .rplc-col:hover{
+                    background-color: $chosencolor;
+                    color: white;
+                    transition: .5s;
+                    p{
+                        color: white;
+                    }
+                    .rplc-nm{
+                        background-color: white;
+                        color: black;
+                    }
+                    
+                }
+                .srch-col{
+                    padding: 0px;
+                }
+            }
+        }
+    }   
+.inboxb{
+    position: relative!important;
+    bottom: 110%!important;
+    p{
+        font-size: 30px!important;
+    }
+    .bxb-btn{
+        width: 80%!important;
+        margin: 5%!important;
+
+    }
+
+}
+
+
+
+}
+
+
+
+/*1200*/

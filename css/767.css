@@ -1,0 +1,9 @@
+@media only screen and (max-width: 770px) {
+  .box-c .sldr-b .row .cm-cl {
+    height: 28%; }
+  .box-c .sldr-b .row .spcl-cm-cl {
+    border: 0px solid transparent; }
+  .container {
+    width: 100%; }
+  .row {
+    width: 100%; } }

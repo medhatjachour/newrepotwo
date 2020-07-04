@@ -75,6 +75,29 @@
             background-color: white;
             color: black; }
         .rplc-mnu .container .row .srch-col {
-          padding: 0px; } }
+          padding: 0px; }
+  .inboxb {
+    position: relative !important;
+    bottom: 110% !important; }
+    .inboxb p {
+      font-size: 30px !important; }
+    .inboxb .bxb-btn {
+      width: 80% !important;
+      margin: 5% !important; }
+  .container {
+    width: 100%; }
+  .row {
+    width: 100%; }
+  .box-c .sldr-b .row .cm-cl h2 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+  .box-c .sldr-b .row .cm-cl button {
+    margin: 8px 0px;
+    font-size: 13px; }
+  .box-d {
+    transform: translateY(280px); }
+  .box-g {
+    height: 100%;
+    margin-top: 300px; } }
 
 /*1200*/

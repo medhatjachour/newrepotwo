@@ -1,8 +1,8 @@
-# Frontend Website
+# frontend_task
 
 This is a frontend website built with HTML, CSS, SASS, and jQuery. The website demonstrates the ability to change the main color, display maps, display a form, and show reviews.
-![alt text](https://github.com/medhatjachour/Frontend_Website/blob/master/15/img.png?raw=true)
-![alt text](https://github.com/medhatjachour/Frontend_Website/blob/master/15/img2.png?raw=true)
+![alt text](https://github.com/medhatjachour/frontend_task/blob/master/img3.png?raw=true)
+![alt text](https://github.com/medhatjachour/frontend_task/blob/master/img5.png?raw=true)
 
 ## Features
 
@@ -22,11 +22,11 @@ This is a frontend website built with HTML, CSS, SASS, and jQuery. The website d
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Frontend_Website.git
+    git clone https://github.com/yourusername/frontend_task.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Frontend_Website
+    cd frontend_taske
     ```
 
 ## Usage
